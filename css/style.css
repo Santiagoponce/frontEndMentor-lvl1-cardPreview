@@ -1,0 +1,113 @@
+:root
+{  
+    --dark-cyan:hsl(158,36%,37%);
+    --cream:hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    --font-paragraph:14px;
+    /*
+    --font-monserrat:'Montserrat', sans-serif;
+    --font-franunce: 'Fraunces', serif;
+    */
+}
+
+main
+{
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.preview-card
+{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 450px;
+    border-radius: 5px;
+    background-color: var(--white);
+}
+.preview-card__image
+{
+    flex: 1 1 50%;
+    border-radius: 5px 0px 0 5px;
+
+}
+.preview-card__right
+{
+   flex: 1 1 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+
+}
+.preview-card__header
+{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
+    width: 80%;
+    letter-spacing: 3px;
+
+}
+.preview-card__title
+{
+    font-family:'Fraunces', serif;
+    color: var(--very-dark-blue);
+    font-size: 2em;
+    width: 80%;
+}
+.preview-card__description
+{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
+    width: 80%;
+    line-height: 20px;
+
+}
+.preview-card__price{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+.preview-card__currentprice
+{
+    font-family:'Fraunces', serif;
+    color: var(--dark-cyan);
+    font-size: 1.5em;
+    width: 80%;
+}
+
+.preview-card__oldprice
+{
+    font-size: 14px;
+    width: 80%;
+    color: var(--dark-grayish-blue);
+    text-decoration:line-through;
+}
+.preview-card__buyButton
+{
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    height: 10%;
+}
+
+.preview-card__buyButton img
+{
+    padding-right:10px;
+}
