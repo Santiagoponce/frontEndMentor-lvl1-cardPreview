@@ -81,14 +81,13 @@ main
 {
     font-family:'Fraunces', serif;
     color: var(--dark-cyan);
-    font-size: 1.5em;
-    width: 80%;
+    font-size: 2em;
+    display: inline-block;
 }
 
 .preview-card__oldprice
 {
     font-size: 14px;
-    width: 80%;
     color: var(--dark-grayish-blue);
     text-decoration:line-through;
 }
