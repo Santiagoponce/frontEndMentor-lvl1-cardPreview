@@ -112,28 +112,36 @@ body
 
 /* Estilos para Celulares   */
 
-@media screen and (max-width:480px)
+@media screen and (max-width:580px)
 {
 
     body
     {
         width: auto;
+        height: 100vh;
+        margin: 1rem;
+    }
+
+    main{
         height: 100%;
-      
     }
     .preview-card
     {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 100%;
         border-radius: 10px;
+        box-sizing: border-box;
     }
 
     .preview-card__image
     {
         max-inline-size: 100%;
-        max-block-size: 35%;
-        object-fit: cover;
+        aspect-ratio:3/2;
+        flex: none;
+        block-size:unset;
+        object-position: 50% 35%;
+        object-fit:cover;
         border-radius: 10px 10px 0 0px;
     }
     .preview-card__right
@@ -141,7 +149,6 @@ body
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin:1rem;
     }
     .preview-card__title
 {
