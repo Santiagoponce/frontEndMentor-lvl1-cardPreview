@@ -108,3 +108,51 @@ body
    background-color: var(--button-active);
 
 }
+
+
+/* Estilos para Celulares   */
+
+@media screen and (max-width:480px)
+{
+
+    body
+    {
+        width: auto;
+        height: 100%;
+      
+    }
+    .preview-card
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        border-radius: 10px;
+    }
+
+    .preview-card__image
+    {
+        max-inline-size: 100%;
+        max-block-size: 35%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0px;
+    }
+    .preview-card__right
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin:1rem;
+    }
+    .preview-card__title
+{
+
+    font-size:2rem;
+}
+.preview-card__description
+{
+
+    font-size:1rem;
+}
+
+
+}
