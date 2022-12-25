@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Product preview card component</title>
@@ -14,25 +15,23 @@
   <main>
       <section class="preview-card">
         <img class="preview-card__image" alt="image of parfum" src="images/image-product-desktop.jpg">
+
         <div class="preview-card__right">
-          <h1 class="preview-card__header">PERFUME</h1>
-          <h2 class="preview-card__title">Gabrielle Essence Eau De Parfum</h2>
+          <p class="preview-card__header">perfume</p>
+          <h1 class="preview-card__title">Gabrielle Essence Eau De Parfum</h2>
           <p class="preview-card__description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
           Perfumer-Creator for the House of CHANEL.</p>
+
         <div class="preview-card__price">
-          <span class="preview-card__currentprice">$149.99</span>
-          <span class="preview-card__oldprice"> $169.99</span>
+          <p class="preview-card__currentprice">$149.99</p>
+          <p class="preview-card__oldprice"> $169.99</p>
         </div>
-          <button class="preview-card__buyButton"><img alt="icon of a cart in button" src="images/icon-cart.svg">Add to Cart</button>
-          
+        <button class="preview-card__buyButton"><img alt="icon of a cart in button" src="images/icon-cart.svg">Add to Cart</button>
         </div>
      </section>
   </main>
   <footer>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Ponce Santiago</a>.
-  </div>
+
 </footer>
 </body>
 </html>
