@@ -128,7 +128,7 @@ body
     {
         display: flex;
         flex-direction: column;
-        height: 100%;
+        height: auto;
         border-radius: 10px;
         box-sizing: border-box;
         min-height: 100vh;
